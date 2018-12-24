@@ -1,0 +1,19 @@
+[package]
+name          = "is_variant"
+version       = "0.1.0"
+authors       = ["Árpád Goretity <h2co3@h2co3.org>"]
+license       = "MIT"
+readme        = "../README.md"
+documentation = "https://docs.rs/is_variant"
+description   = "Derive `is_XXX` methods to quickly check for enum variants"
+keywords      = ["enum", "variant", "derive", "macro"]
+categories    = ["development-tools"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4.24"
+syn         = "0.14.9"
+quote       = "0.6.10"
+heck        = "0.3.1"
